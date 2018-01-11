@@ -44,7 +44,7 @@ public class PackageDetailsActivity extends AppCompatActivity{
 
         // Set the navigation bar color
         if (PreferenceManager.getDefaultSharedPreferences(this).getBoolean("navigation_bar_tint", true)) {
-            getWindow().setNavigationBarColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+//            getWindow().setNavigationBarColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
         }
 
         // Restore the status.
